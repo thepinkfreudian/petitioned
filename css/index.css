@@ -75,7 +75,6 @@
     color: #FFF;
 }
 
-/* modal */
 .modal {
     display: none;
     position: fixed;
@@ -88,11 +87,10 @@
     background-color: rgba(0,0,0,0.4); 
 }
 
-/* Modal Content/Box */
 .modal-content {
     background-color: #5680E9;
     color: #FFF;
-    margin: 15% auto;
+    margin: 5% auto;
     padding: 20px;
     border-radius: 5px;
     width: 50%;
@@ -112,7 +110,6 @@
     padding: 1%;
 }
 
-/* The Close Button */
 .close {
     color: #FFF;
     float: right;
