@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/boilerplate.css" type="text/css">
+        <link rel="stylesheet" href="css/index.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/global.js"></script>
+        <script src="js/nebulas.js"></script>
+        <script src="js/nebPay.js"></script>
+        <script src="js/HardlyNeb.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="title">
+                    <span class="main-title"><a href="index.html">Petitioned</a></span>
+                    <span class="subtitle">verifiably signed petitions on the blockchain.</span>
+                </div>
+                <div class="btn-container">
+                    <button class="btn create-btn" id="create-btn">Create New Petition</button>
+                </div>
+            </div>
+            <div id="petition-info" class="modal">
+                <div class="modal-content">
+                <span class="close">&times;</span><br>
+                <span class="modal-header">Petition Title (50 character max)</span>
+                <input type="text" id="add-title" maxlength="50">
+                <span class="modal-header">Optional Description (500 character max)</span>
+                <textarea id="add-desc" maxlength="500"></textarea>
+                <button class="btn add-btn" id="add-btn">Add Petition</button>
+                </div>
+            </div>
+            <div class="status" id="tx-pending"></div>
+            <div id="no-data">There are no active petitions.</div>
+            <div id="error-info"></div>
+            <div class="grid-container" id="petition-grid">
+                <div class="grid-item"></div>
+            </div>
+        </div>
+        <div class="footer">
+            <span class="footer-text">Created by <a href="https://github.com/thepinkfreudian" target="blank">thepinkfreudian</a> for <a href="https://nebulas.io" target="blank">nebulas.io</a>.</span>
+            <span class="footer-text">Get the Nebulas Web Wallet Extension <a href="https://chrome.google.com/webstore/detail/nasextwallet/gehjkhmhclgnkkhpfamakecfgakkfkco" target="blank">here.</a></span>
+        </div>
+        <script src="js/index.js"></script>
+    </body>
+</html>

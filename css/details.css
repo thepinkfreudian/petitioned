@@ -1,0 +1,31 @@
+.petition-title {
+    font-size: 2em;
+    font-weight: 700;
+    color: #5680E9;
+    margin: 1%;
+    padding-top: 2%;
+}
+
+.petition-desc {
+    margin-bottom: 2%;
+}
+
+.petition-data {
+    display: inline;
+    padding-right: 3%;
+}
+
+table {
+    width: 90%;
+    margin: 2% auto;
+}
+
+th, td {
+    text-align: left;
+    border-bottom: 1px solid #5AB9EA;
+    padding: 2%;
+}
+
+th {
+    color: #5680E9;
+}
