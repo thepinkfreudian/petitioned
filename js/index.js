@@ -139,7 +139,7 @@ function populatePetitions(result) {
         html += '<span class="petition-signature-caption">' + signature_caption + '</span>';
         html += '<span class="petition-created">Created: ' + created_date + '</span>';
         html += '<button class="btn sign-petition-btn" onclick="signPetition(\''+ result[i].petition_id + '\')">Sign Petition</button>';
-        html += '<button class="btn get-details-btn" onclick="window.location =  \'details.html?id=\' + $(this).data(\'param\');" data-param="'+ result[i].petition_id +'">See Signatures</button>';
+        html += '<button class="btn get-details-btn" onclick="window.location =  \'details.html?id=\' + $(this).data(\'param\');" data-param="'+ result[i].petition_id +'">Get Details</button>';
         html += '<span><button class="btn report-petition" onclick="reportPetition(' + result[i].petition_id + ');">Report Petition</button></span>';
         html += '</div>'
     }
