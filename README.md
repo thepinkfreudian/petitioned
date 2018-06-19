@@ -1,2 +1,2 @@
 # petitioned
-WIP
+verifiable petitions on the blockchain.
